@@ -3,11 +3,13 @@ import './Home.css';
 import image from '../../images/laptop.jpg';
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
 
     const [reviews, setReviews] = useReviews();
+
+    const navigate = useNavigate();
 
     return (
         <div>
@@ -29,7 +31,7 @@ const Home = () => {
                     }
                 </div>
             </div>
-            <Link to='/reviews' className='review-btn text-center'>See All Reviews</Link>
+            <button onClick={() => {navigate('/reviews')}} className='flex justify-center mx-auto my-10 bg-blue-500 py-2 px-10 rounded text-white'>See All Reviews</button>
         </div>
     );
 };
