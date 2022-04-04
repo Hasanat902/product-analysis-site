@@ -1,8 +1,14 @@
 import React from 'react';
 import './Home.css';
 import image from '../../images/laptop.jpg';
+import useReviews from '../../hooks/useReviews';
+import Review from '../Review/Review';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
+
+    const [reviews, setReviews] = useReviews();
+
     return (
         <div>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
@@ -15,6 +21,15 @@ const Home = () => {
                 </div>
                 <img className='text-center ml-10' src={image} alt="" />
             </div>
+            <div>
+                <h2 className='text-center text-4xl mt-10'>Customer Reviews</h2>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-10 mx-10 my-9'>
+                    {
+                        reviews.slice(0, 3).map(review => <Review key={review.id} review={review}></Review>)
+                    }
+                </div>
+            </div>
+            <Link to='/reviews' className='review-btn text-center'>See All Reviews</Link>
         </div>
     );
 };
