@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "ALex Suprun",
+        "comment": "This product is very good.You can buy it.",
+        "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "ratings": 4.5
+    },
+    {
+        "id": 2,
+        "name": "ALexander",
+        "comment": "I am using this laptop.You can doing any work smoothly by this.",
+        "image": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "ratings": 5
+    },
+    {
+        "id": 3,
+        "name": "Julian Wan",
+        "comment": "This laptop is so cool.You can work multitask at a time by using this laptop.",
+        "image": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "ratings": 5
+    },
+    {
+        "id": 4,
+        "name": "Daniel Smith",
+        "comment": "I am using this laptop many many days.I cannot find any problem in it.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "ratings": 4.5
+    },
+    {
+        "id": 5,
+        "name": "Nick Jonas",
+        "comment": "This laptop is so good.It works so fast and smoothly.Anyone can buy.",
+        "image": "https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "ratings": 4
+    },
+    {
+        "id": 6,
+        "name": "Mark Waugh",
+        "comment": "Working experience with this laptop is prety good.And it's design is also good.",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "ratings": 4.5
+    }
+]
